@@ -1,0 +1,17 @@
+{
+    "current": {
+        "locale": "Español"
+    },
+    "locales": {
+        "ca": "Català",
+        "es": "Español",
+        "en": "English"
+    },
+    "pages": {
+        "root": {
+            "body": {
+                "tldr_backend": "Solid Backend knowledge of <b>Symfony</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>ExpressJS</b>, <b>PHPUnit</b>, <b>PHPSpec</b>, <b>BeHat</b> and <b>Jest</b>."
+            }
+        }
+    }
+}

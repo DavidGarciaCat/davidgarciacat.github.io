@@ -1,4 +1,4 @@
-import { i18n, type Locale } from "../../i18n-config";
+import { i18n, type Locale } from "@/i18n-config";
 import "../globals.css";
 
 export async function generateStaticParams() {
@@ -6,9 +6,9 @@ export async function generateStaticParams() {
 }
 
 export default function Root({
-                                 children,
-                                 params,
-                             }: {
+    children,
+    params,
+}: {
     children: React.ReactNode;
     params: { lang: Locale };
 }) {

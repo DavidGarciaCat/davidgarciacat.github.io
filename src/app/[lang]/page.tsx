@@ -3,6 +3,11 @@ import { Locale } from "@/i18n-config";
 import { Metadata } from "next";
 import type { Author } from "next/dist/lib/metadata/types/metadata-types";
 import Link from "next/link";
+import WorkExperienceType from "@/types/WorkExperienceType";
+import VolunteeringType from "@/types/VolunteeringType";
+import EducationType from "@/types/EducationType";
+import SkillType from "@/types/SkillType";
+import SkillSampleType from "@/types/SkillSampleType";
 
 export const metadata: Metadata = {
 };
@@ -69,7 +74,7 @@ export default async function IndexPage({
             <section className="resume-section" id="experience">
                 <div className="resume-section-content">
                     <h2 className="mb-5">{dictionary.pages.root.experience.title}</h2>
-                    {dictionary.pages.root.experience.items.map((experience: object, experienceIndex: number) => (
+                    {dictionary.pages.root.experience.items.map((experience: WorkExperienceType, experienceIndex: number) => (
                         <div key={experienceIndex}
                              className="d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div className="flex-grow-1">
@@ -101,7 +106,7 @@ export default async function IndexPage({
             <section className="resume-section" id="volunteering">
                 <div className="resume-section-content">
                     <h2 className="mb-5">{dictionary.pages.root.volunteering.title}</h2>
-                    {dictionary.pages.root.volunteering.items.map((volunteering: object, volunteeringIndex: number) => (
+                    {dictionary.pages.root.volunteering.items.map((volunteering: VolunteeringType, volunteeringIndex: number) => (
                         <div key={volunteeringIndex}
                              className="d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div className="flex-grow-1">
@@ -126,7 +131,7 @@ export default async function IndexPage({
             <section className="resume-section" id="education">
                 <div className="resume-section-content">
                     <h2 className="mb-5">{dictionary.pages.root.education.title}</h2>
-                    {dictionary.pages.root.education.items.map((education: object, educationIndex: number) => (
+                    {dictionary.pages.root.education.items.map((education: EducationType, educationIndex: number) => (
                         <div key={educationIndex}
                              className="d-flex flex-column flex-md-row justify-content-between mb-5">
                             <div className="flex-grow-1">
@@ -154,16 +159,13 @@ export default async function IndexPage({
             <section className="resume-section" id="skills">
                 <div className="resume-section-content">
                     <h2 className="mb-5">{dictionary.pages.root.skills.title}</h2>
-                    {dictionary.pages.root.skills.items.map((skill: object, skillIndex: number) => (
+                    {dictionary.pages.root.skills.items.map((skill: SkillType, skillIndex: number) => (
                         <div key={skillIndex}>
                             <div className="subheading mb-3">{skill.block}</div>
                             <ul className="list-inline dev-icons">
-                                {skill.samples.map((skillSample: object, skillSampleIndex: number) => (
+                                {skill.samples.map((skillSample: SkillSampleType, skillSampleIndex: number) => (
                                     <li key={skillSampleIndex} className="list-inline-item" title={skillSample.name}>
-                                        {skillSample.logo
-                                            ? <i className={skillSample.logo} title={skillSample.name}></i>
-                                            : <i className={skillSample.logo2} title={skillSample.name}></i>
-                                        }
+                                        <i className={skillSample.logo} title={skillSample.name}></i>
                                     </li>
                                 ))}
                             </ul>

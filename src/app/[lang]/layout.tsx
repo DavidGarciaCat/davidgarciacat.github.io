@@ -5,6 +5,7 @@ import Script from "next/script";
 import "../globals.css";
 import Image from "next/image";
 import profilePicture from "@/../public/images/profile-x400.jpg";
+import LocaleType from "@/types/LocaleType";
 
 export async function generateStaticParams() {
     return i18n.locales.map((locale) => ({ lang: locale }));
@@ -42,7 +43,7 @@ export default async function Root({
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        {dictionary.i18n.locales.map((locale: {name: string, iso_639_2: string, flag: string}, localeIndex: number) => (
+                        {dictionary.i18n.locales.map((locale: LocaleType, localeIndex: number) => (
                             <Link key={localeIndex}
                                   className={"nav-link js-scroll-trigger"}
                                   style={{display: "inline-block"}}

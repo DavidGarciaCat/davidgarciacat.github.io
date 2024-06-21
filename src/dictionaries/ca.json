@@ -1,17 +1,445 @@
 {
-    "current": {
-        "locale": "Català"
+    "i18n": {
+        "current": "Català",
+        "locales": [
+            {
+                "name": "Català",
+                "iso_639_2": "ca",
+                "flag": "es-ca"
+            },
+            {
+                "name": "Español",
+                "iso_639_2": "es",
+                "flag": "es"
+            },
+            {
+                "name": "English",
+                "iso_639_2": "en",
+                "flag": "gb"
+            }
+        ]
     },
-    "locales": {
-        "ca": "Català",
-        "es": "Español",
-        "en": "English"
+    "navbar": {
+        "about": "Sobre mi",
+        "why": "Per què jo?",
+        "experience": "Experiència",
+        "volunteering": "Voluntariat",
+        "education": "Formació",
+        "skills": "Coneixements"
     },
     "pages": {
         "root": {
-            "body": {
-                "tldr_backend": "Solid Backend knowledge of <b>Symfony</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>ExpressJS</b>, <b>PHPUnit</b>, <b>PHPSpec</b>, <b>BeHat</b> and <b>Jest</b>."
+            "metadata": {
+                "title": "David Garcia",
+                "description": "Programador Sènior, NodeJS, PHP, Symfony & Backend"
+            },
+            "about": {
+                "name": "David",
+                "surname": "Garcia",
+                "header": "Programador Sènior, NodeJS, PHP, Symfony & Backend",
+                "contact_me": "(Envia'm un missatge per LinkedIn)",
+                "intro_1": "Estic orgullós de veure'm com un Programador Sènior molt motivat i amb un gran interès a utilitzar les darreres tecnologies. A més, tinc coneixements d'administració de sistemes operatius, gràcies al meu bagatge tant en Microsoft Windows com en distribucions GNU/Linux (basades en CentOS i Debian) per proporcionar serveis d'Internet per a centenars de clients amb milions de visitants.",
+                "intro_2": "Per a mi, l'aprenentatge no s'atura mai, i per això acostumo a ser autodidacta. Sempre intento obtenir nous coneixements per estar al dia, independentment de si es tracta d'un nou marc de treball (Framework), d'un nou llenguatge de programació o d'un nou sistema operatiu."
+            },
+            "why": {
+                "title": "Per què jo?",
+                "items": [
+                    "Especialista Backend en <b>PHP</b>, <b>Symfony</b>, <b>PHPUnit</b>, <b>PHPSpec</b>, <b>BeHat</b> i en <b>NodeJS</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>ExpressJS</b> i <b>Jest</b>.",
+                    "Experiència Frontend en <b>HTML</b>, <b>CSS</b>, <b>LESS</b>, <b>Bootstrap</b>, <b>JavaScript</b> (ES6+) i <b>jQuery</b>.",
+                    "Experiència prèvia en <b>NextJS</b>, Angular, React, Python, Django, FastAPI i Go (Golang).",
+                    "Gestió d'infraestructura al núvol d'<b>Amazon Web Services</b> (<b>AWS</b>) i <b>Google Cloud Platform</b> (<b>GCP</b>).",
+                    "Coneixements de <b>Docker</b>, <b>Principis <i>SOLID</i></b>, <b>Patrons de Disseny</b> (<i>Design Patterns</i>), <b>Arquitectura Hexagonal</b>, <b>Desenvolupament Impulsat pel Domini</b> (<b>Domain-Driven Development</b>, <b>DDD</b>) i <b>Microserveis</b>.",
+                    "Actitud positiva, ètica de treball, motivació, lideratge, metodologies AGILE i defensor de codi d'alta qualitat i rendiment."
+                ]
+            },
+            "experience": {
+                "title": "Experiència laboral",
+                "items": [
+                    {
+                        "position": "Programador Sènior",
+                        "company": "Bismuse SL - Reus (Tarragona)",
+                        "date": "Juliol 2021 - Actualment",
+                        "goals": [
+                            "Líder de desenvolupament en els principals projectes de l'empresa.",
+                            "Disseny, implementació i migració de dades per operar amb nous projectes monolítics, APIs i diversos microserveis programats en PHP/Symfony, TypeScript/NodeJS i Golang.",
+                            "Millores d'usabilitat i rendiment, augmentant en 4 cops el nombre de visitants en menys de 6 mesos (segons Google Analytics).",
+                            "Reducció de la càrrega dels servidors, proporcionant respostes un 50% més ràpides i consumint menys recursos (segons Blackfire).",
+                            "Arquitecte de la nova infraestructura de servidors distribuïda a AWS (Amazon Web Services).",
+                            "Implementació de mesures de mitigació d'atacs DDoS (enregistrats) els quals no han afectat la disponibilitat dels serveis (segons Zabbix).",
+                            "Mentor de la resta de programadors de l'equip, especialment en relació amb els Tests Automàtics (PHPUnit) i DDD."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "NodeJS", "TypeScript", "JavaScript", "Go (Golang)", "DDD", "AGILE", "Kanban", "Blackfire", "Zabbix",
+                            "AWS EC2", "AWS RDS", "AWS ElasticSearch", "AWS OpenSearch", "AWS SQS", "AWS RabbitMQ", "AWS SNS", "AWS ElastiCache (Redis)",
+                            "Kerio Connect", "GitLab", "GitLab CI", "Docker", "MacOS", "Linux", "CentOS", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Programador Sènior Backend",
+                        "company": "Avanti Communications Group - Londres (Regne Unit)",
+                        "date": "Agost 2019 - Juliol 2021",
+                        "goals": [
+                            "Programador principal de l'equip, posteriorment promocionat a Líder de l'equip i Scrum Master.",
+                            "Desencallar un projecte blocat durant més de 6 anys; demostracions inicials en 4 mesos; integracions en 8 mesos.",
+                            "Integracions de nous projectes API i microserveis amb les eines BSS principals de l'empresa.",
+                            "Un dels dos únics responsables de la qualitat, seguretat i rendiment del codi font en diversos projectes.",
+                            "Mentor de la resta de programadors de l'equip (de forma activa) i d'altres equips (de forma passiva), especialment en relació amb els Tests Automàtics (PHPSpec i Behat) i nous components de Symfony."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "PHPSpec", "Behat", "NodeJS", "Angular", "DDD", "AGILE", "Kanban", "Blackfire",
+                            "SQL", "RabbitMQ", "ElasticSearch", "AWS SQS", "Auth0",
+                            "GitLab", "Jenkins", "Docker", "Linux", "CentOS", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Director Tècnic",
+                        "company": "Crowd2Fund Limited - Londres (Regne Unit)",
+                        "date": "Juny 2015 - Juliol 2019",
+                        "goals": [
+                            "Contractat com a Programador, ascendit a Cap de Desenvolupament i, finalment, a Director Tècnic.",
+                            "Líder de programació del projecte (implicació principal en funcions semiintel·ligents i noves APIs).",
+                            "Reducció de la càrrega dels servidors web i de la base de dades en uns valors màxims del 96% (segons Blackfire).",
+                            "Optimització dels processos existents per augmentar el rendiment fins a un 60% (segons Blackfire i Zabbix).",
+                            "Arquitecte de la nova infraestructura informàtica, reduint els costs previs en un 75% (després de passar a una gestió DevOps interna).",
+                            "Responsable de la seguretat del programari i les dades, aplicant mesures de seguretat restrictives (Zero Trust) i de monitoratge.",
+                            "Mentor de la resta de programadors de l'equip, especialment en relació amb els Tests Automàtics (PHPUnit)."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "PHPSpec", "Behat", "Blackfire", "Zabbix",
+                            "AWS EC2", "AWS RDS", "AWS ElastiCache (Memcached)", "AWS ElastiCache (Redis)",
+                            "GitHub", "Scritinizer CI", "Symfony Insights", "Docker", "MacOS", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Programador Backend",
+                        "company": "Rechannel Limited - Londres (Regne Unit)",
+                        "date": "Abril 2015 - Juny 2015",
+                        "goals": [
+                            "Integracions API amb serveis ERP i CRM externs, augmentant les opcions comercials de l'empresa.",
+                            "Col·laboracions en la implementació de més tests automàtics, augmentant la qualitat del codi."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "PHPSpec", "Behat",
+                            "GitHub", "Scrutinizer CI", "Vagrant", "MacOS", "Linux"
+                        ]
+                    },
+                    {
+                        "position": "Programador Sènior PHP",
+                        "company": "Photo Interactive Services - Tarragona",
+                        "date": "Gener 2014 - Juliol 2014",
+                        "goals": [
+                            "Desenvolupament de noves funcionalitats per a la plataforma de gestió de continguts.",
+                            "Implementació de processos de tractament d'arxius de vídeo i imatge en segon pla."
+                        ],
+                        "stack": [
+                            "PHP", "Solr", "Linux", "Mint"
+                        ]
+                    },
+                    {
+                        "position": "Programador PHP",
+                        "company": "Inspira Project - Tarragona",
+                        "date": "Febrer 2012 - Novembre 2013",
+                        "goals": [
+                            "Migració a noves versions de PHP en diversos projectes de l'empresa.",
+                            "Desenvolupament d'una eina MVC i CMS propis pels desenvolupaments a mida de l'empresa.",
+                            "Implementació de la nova infraestructura de servidors Web i DNS (Plesk) i Correu (Kerio MailServer).",
+                            "Optimització de projectes per fer-los compatibles amb els serveis de Màrqueting Digital oferts per l'empresa."
+                        ],
+                        "stack": [
+                            "PHP", "Plesk", "Kerio MailServer", "Windows", "Linux", "CentOS"
+                        ]
+                    },
+                    {
+                        "position": "Responsable de Tecnologia",
+                        "company": "Neumo-Egmo Spain SL - Pol. Ind. Riu Clar (Tarragona)",
+                        "date": "Agost 2011 - Novembre 2011",
+                        "goals": [
+                            "Desenvolupament de la web pública, integrada amb la intranet de l'empresa.",
+                            "Programació de la intranet de l'empresa, interconnectada amb el ERP.",
+                            "Optimitzar els processos de seguretat de la infraestructura informàtica.",
+                            "Monitoratge de la seguretat i disponibilitat de la xarxa local i servidors de l'empresa."
+                        ],
+                        "stack": [
+                            "PHP", "MySQL", "SOAP", "Windows", "Linux"
+                        ]
+                    },
+                    {
+                        "position": "Programador & Tècnic de Sistemes",
+                        "company": "Unión Virtuality Estudios SL - Reus (Tarragona)",
+                        "date": "Agost 2011 - Novembre 2011",
+                        "goals": [
+                            "Desenvolupament del sistema de gestió de queixes i suggeriments (QISS) per l'Ajuntament de Reus.",
+                            "Desenvolupament del sistema de Notificacions Telemàtiques (eNOTUM) a l'Ajuntament de Reus.",
+                            "Implementació de sistemes de monitoratge de xarxa i servidors (Nagios i Zabbix) per l'empresa i clients.",
+                            "Instal·lació i manteniment de sistemes de telefonia VoIP (Asterisk) per l'empresa i clients.",
+                            "Dur a terme tasques de manteniment preventiu i correctiu a les instal·lacions dels clients."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "MySQL", "Nagios", "Zabbix", "Asterisk", "Windows", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Programador & Tècnic de Sistemes",
+                        "company": "Monterey Derivados SL (Grup Gamagest) - La Pobla de Mafumet (Tarragona)",
+                        "date": "Agost 2011 - Novembre 2011",
+                        "goals": [
+                            "Desenvolupament de llocs web corporatius per la promoció de productes i serveis.",
+                            "Implementació de sistemes de monitoratge de xarxa i servidors (Nagios i Zabbix).",
+                            "Tècnic de Sistemes de suport a l'usuari final i als Administradors de sistemes de l'empresa."
+                        ],
+                        "stack": [
+                            "PHP", "MySQL", "Nagios", "Zabbix","Windows", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Programador",
+                        "company": "IGS Software (IGS4 - Grup Gamagest) - La Pobla de Mafumet (Tarragona)",
+                        "date": "Agost 2011 - Novembre 2011",
+                        "goals": [
+                            "Desenvolupament de llocs web corporatius per la promoció de productes i serveis."
+                        ],
+                        "stack": [
+                            "PHP", "MySQL", "Windows", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Programador Becari",
+                        "company": "Avellana Digital - Reus (Tarragona)",
+                        "date": "Agost 2011 - Novembre 2011",
+                        "goals": [
+                            "Iniciativa en la sol·licitud de tasques de programació més complexes.",
+                            "Desenvolupament de petites utilitats utilitzades pels clients finals.",
+                            "Creació d'un portal informatiu sobre novetats i activitats de la ciutat."
+                        ],
+                        "stack": [
+                            "PHP", "CakePHP", "MySQL", "Windows"
+                        ]
+                    }
+                ]
+            },
+            "volunteering": {
+                "title": "Voluntariat",
+                "items": [
+                    {
+                        "position": "Beta Tester & Traductor",
+                        "company": "Col·laborador habitual amb diversos estudis independents de videojocs",
+                        "date": "2018 - Actualment",
+                        "details": [
+                            "Traductor col·laborador amb un estudi de videojocs (2024-actualment).",
+                            "Traductor, Beta Tester i Suport amb un estudi de videojocs d'Holanda (2020-actualment).",
+                            "Traductor col·laborador amb un estudi de videojocs de Dinamarca (2018-2021)."
+                        ]
+                    },
+                    {
+                        "position": "Contribuidor en llibreries i repositoris de codi obert",
+                        "company": "GitHub",
+                        "date": "2015 - Actualment",
+                        "details": [
+                            "Un dels principals programadors en la reimplementació del Mailgun SDK per PHP.",
+                            "Contribucions de codi per Webmozarts Assert.",
+                            "Incidències obertes al repositori de Symfony, derivant en canvis i millores en noves versions.",
+                            "Col·laboracions a repositoris de Symfony, Sonata Project, Liip, Doctrine, Mailgun, Intercom, Composer, Nelmio, ChartJS, etc."
+                        ]
+                    },
+                    {
+                        "position": "Consultor Tècnic",
+                        "company": "Bismuse SL @ Reus (Tarragona)",
+                        "date": "Febrer 2019 - Juliol 2021",
+                        "details": [
+                            "Suggerir millores de rendiment (augmentant fins a un 50%) pel codi font dels projectes (segons Blackfire).",
+                            "Revisions de codi de forma periòdica, i contribucions puntuals de noves funcionalitats.",
+                            "Mentor de tests automàtics basats en PHPUnit."
+                        ]
+                    },
+                    {
+                        "position": "Especialista de Xarxes",
+                        "company": "Reus Lan Party 2010 @ Reus (Tarragona)",
+                        "date": "Març 2010",
+                        "details": [
+                            "Implementació de Nagios per monitorar la xarxa durant l'esdeveniment."
+                        ]
+                    }
+                ]
+            },
+            "education": {
+                "title": "Formació",
+                "items": [
+                    {
+                        "degree": "Curs de capacitació en TypeScript",
+                        "school": "Curs en línia @ <a href='https://codewithmosh.com/' target='_blank'>CodeWithMosh.com</a>",
+                        "date": "Any 2022",
+                        "details": [
+                            "<i>The Ultimate TypeScript Course</i>"
+                        ]
+                    },
+                    {
+                        "degree": "Curs de capacitació en NodeJS i ExpressJS",
+                        "school": "Curs en línia @ <a href='https://codewithmosh.com/' target='_blank'>CodeWithMosh.com</a>",
+                        "date": "Any 2022",
+                        "details": [
+                            "<i>The Complete Node.js Course</i>"
+                        ]
+                    },
+                    {
+                        "degree": "Conferències Symfony Live & Symfony World",
+                        "school": "Conferències presencials & <a href='https://live.symfony.com/' target='_blank'>en línia</a>",
+                        "date": "2015 - 2020",
+                        "details": [
+                            "<i>Symfony Live London (2015, 2016, 2017 & 2018)</i>",
+                            "<i>Symfony World Online (2020)</i>"
+                        ]
+                    },
+                    {
+                        "degree": "Tècnic Certificat en Panda Cloud Office Protection",
+                        "school": "Panda Security Certification Program",
+                        "date": "Any 2009",
+                        "details": [
+                            "Tècnic Certificat en Panda Cloud Office Protection"
+                        ]
+                    },
+                    {
+                        "degree": "Tècnic Superior en Administració de Sistemes Informàtics (ASI)",
+                        "school": "<a href='https://www.insbaixcamp.org/' target='_blank'>IES Baix Camp</a> @ Reus (Tarragona)",
+                        "date": "Setembre 2007 - Juny 2009",
+                        "details": [
+                            "Tècnic Superior en Administració de Sistemes Informàtics (ASI)",
+                            "Certificació Cisco CCNA-2",
+                            "Certificació Cisco CCNA-1"
+                        ]
+                    },
+                    {
+                        "degree": "Tècnic en Explotació de Sistemes Informàtics (ESI)",
+                        "school": "<a href='https://www.insbaixcamp.org/' target='_blank'>IES Baix Camp</a> @ Reus (Tarragona)",
+                        "date": "Setembre 2004 - Juny 2007",
+                        "details": [
+                            "Tècnic en Explotació de Sistemes Informàtics (ESI)"
+                        ]
+                    }
+                ]
+            },
+            "skills": {
+                "title": "Coneixements",
+                "items": [
+                    {
+                        "block": "Sistemes Operatius",
+                        "samples": [
+                            {
+                                "name": "Apple macOS",
+                                "logo": "fa-fw fa-brands fa-apple"
+                            },
+                            {
+                                "name": "GNU/Linux",
+                                "logo": "fa-fw fa-brands fa-linux"
+                            },
+                            {
+                                "name": "Ubuntu (Debian) GNU/Linux",
+                                "logo": "fa-fw fa-brands fa-ubuntu"
+                            },
+                            {
+                                "name": "CentOS (RedHat) GNU/Linux",
+                                "logo": "fa-fw fa-brands fa-centos"
+                            },
+                            {
+                                "name": "Microsoft Windows",
+                                "logo": "fa-fw fa-brands fa-windows"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "Llenguatges de Programació & Motors d'Execució",
+                        "samples": [
+                            {
+                                "name": "PHP",
+                                "logo": "fa-fw fa-brands fa-php"
+                            },
+                            {
+                                "name": "Symfony",
+                                "logo": "fa-fw fa-brands fa-symfony"
+                            },
+                            {
+                                "name": "JavaScript",
+                                "logo": "fa-fw fa-brands fa-js"
+                            },
+                            {
+                                "name": "NodeJS",
+                                "logo": "fa-fw fa-brands fa-node-js"
+                            },
+                            {
+                                "name": "HTML",
+                                "logo": "fa-fw fa-brands fa-html5"
+                            },
+                            {
+                                "name": "Bootstrap",
+                                "logo": "fa-fw fa-brands fa-bootstrap"
+                            },
+                            {
+                                "name": "CSS",
+                                "logo": "fa-fw fa-brands fa-css3-alt"
+                            },
+                            {
+                                "name": "LESS",
+                                "logo": "fa-fw fa-brands fa-less"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "Proveïdors de Serveis & Eines",
+                        "samples": [
+                            {
+                                "name": "Amazon Web Services",
+                                "logo": "fa-fw fa-brands fa-aws"
+                            },
+                            {
+                                "name": "Google Cloud Platform",
+                                "logo": "fa-fw fa-brands fa-google"
+                            },
+                            {
+                                "name": "Docker",
+                                "logo": "fa-fw fa-brands fa-docker"
+                            },
+                            {
+                                "name": "Git",
+                                "logo": "fa-fw fa-brands fa-git"
+                            },
+                            {
+                                "name": "GitHub",
+                                "logo": "fa-fw fa-brands fa-github"
+                            },
+                            {
+                                "name": "GitLab",
+                                "logo": "fa-fw fa-brands fa-gitlab"
+                            },
+                            {
+                                "name": "Bitbucket",
+                                "logo": "fa-fw fa-brands fa-bitbucket"
+                            },
+                            {
+                                "name": "GitKraken",
+                                "logo": "fa-fw fa-brands fa-gitkraken"
+                            },
+                            {
+                                "name": "Jira",
+                                "logo": "fa-fw fa-brands fa-jira"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "ip": {
+            "metadata": {
+                "title": "Adreça IP · David Garcia",
+                "description": "Adreça IP del client que fa la petició"
+            },
+            "page": {
+                "title": "Adreça IP"
             }
         }
+    },
+    "social": {
+        "GitHub": "https://github.com/DavidGarciaCat",
+        "GitLab": "https://gitlab.com/DavidGarciaCat",
+        "LinkedIn": "https://www.linkedin.com/in/davidgarciacat/",
+        "Medium": "https://medium.com/@david-garcia"
     }
 }

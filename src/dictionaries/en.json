@@ -1,17 +1,445 @@
 {
-    "current": {
-        "locale": "English"
+    "i18n": {
+        "current": "English",
+        "locales": [
+            {
+                "name": "Català",
+                "iso_639_2": "ca",
+                "flag": "es-ca"
+            },
+            {
+                "name": "Español",
+                "iso_639_2": "es",
+                "flag": "es"
+            },
+            {
+                "name": "English",
+                "iso_639_2": "en",
+                "flag": "gb"
+            }
+        ]
     },
-    "locales": {
-        "ca": "Català",
-        "es": "Español",
-        "en": "English"
+    "navbar": {
+        "about": "About me",
+        "why": "Why me?",
+        "experience": "Experience",
+        "volunteering": "Volunteering",
+        "education": "Education & Courses",
+        "skills": "Skills"
     },
     "pages": {
         "root": {
-            "body": {
-                "tldr_backend": "Solid Backend knowledge of <b>Symfony</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>ExpressJS</b>, <b>PHPUnit</b>, <b>PHPSpec</b>, <b>BeHat</b> and <b>Jest</b>."
+            "metadata": {
+                "title": "David Garcia",
+                "description": "Senior Software Engineer, NodeJS, PHP, Symfony & Backend"
+            },
+            "about": {
+                "name": "David",
+                "surname": "Garcia",
+                "header": "Senior Software Engineer, NodeJS, PHP, Symfony & Backend",
+                "contact_me": "(Send me a message on LinkedIn)",
+                "intro_1": "I take great pride in presenting myself as a highly motivated Senior Software Engineer with a strong dedication to leveraging cutting-edge technologies. Furthermore, I possess extensive expertise in the administration of operating systems, acquired through my extensive background in both Microsoft Windows and GNU/Linux distributions (specifically CentOS and Debian), wherein I have successfully delivered internet services to a diverse clientele comprising hundreds of users and millions of visitors.",
+                "intro_2": "My commitment to continuous learning is unwavering, and I am inherently self-directed in my pursuit of knowledge. I consistently seek to acquire new skills and stay abreast of developments, whether in emerging frameworks, programming languages, or operating systems."
+            },
+            "why": {
+                "title": "Why me?",
+                "items": [
+                    "Backend Specialist in <b>PHP</b>, <b>Symfony</b>, <b>PHPUnit</b>, <b>PHPSpec</b>, <b>BeHat</b> and in <b>NodeJS</b>, <b>JavaScript</b>, <b>TypeScript</b>, <b>ExpressJS</b> and <b>Jest</b>.",
+                    "Frontend experience with <b>HTML</b>, <b>CSS</b>, <b>LESS</b>, <b>Bootstrap</b>, <b>JavaScript</b> (ES6+) and <b>jQuery</b>.",
+                    "Previous experience working with <b>NextJS</b>, Angular, React, Python, Django, FastAPI and Go (Golang).",
+                    "Cloud infrastructure management on the <b>Amazon Web Services</b> (<b>AWS</b>) and <b>Google Cloud Platform</b> (<b>GCP</b>).",
+                    "Knowledge of <b>Docker</b>, <b>SOLID principles</b>, <b>Design Patterns</b>, <b>Hexagonal Architecture</b>, <b>Domain-Driven Development</b> (<b>DDD</b>) and <b>Microservices</b>.",
+                    "Positive attitude, work ethics, motivation, leadership, AGILE methodologies and advocate of high-quality and high-performance code."
+                ]
+            },
+            "experience": {
+                "title": "Work experience",
+                "items": [
+                    {
+                        "position": "Senior Software Engineer",
+                        "company": "Bismuse SL - Reus (Spain)",
+                        "date": "July 2021 - Currently",
+                        "goals": [
+                            "Lead Development on the company's flagship projects.",
+                            "Design, implementation, and data migration for operating new monolithic projects, APIs, and multiple microservices programmed in PHP/Symfony, TypeScript/NodeJS, and Golang.",
+                            "Enhanced usability and performance, achieving a fourfold increase in visitors within less than 6 months (according to Google Analytics).",
+                            "Server load reduction, delivering responses 50% faster and consuming fewer resources (according to Blackfire).",
+                            "Architect of the new distributed server infrastructure on AWS (Amazon Web Services).",
+                            "Implementation of DDoS attack mitigation measures (recorded) that have not impacted service availability (according to Zabbix).",
+                            "Mentor to the rest of the team programmers, particularly in Automated Testing (PHPUnit) and DDD."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "NodeJS", "TypeScript", "JavaScript", "Go (Golang)", "DDD", "AGILE", "Kanban", "Blackfire", "Zabbix",
+                            "AWS EC2", "AWS RDS", "AWS ElasticSearch", "AWS OpenSearch", "AWS SQS", "AWS RabbitMQ", "AWS SNS", "AWS ElastiCache (Redis)",
+                            "Kerio Connect", "GitLab", "GitLab CI", "Docker", "MacOS", "Linux", "CentOS", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Backend Senior Software Engineer",
+                        "company": "Avanti Communications Group - London (UK)",
+                        "date": "August 2019 - July 2021",
+                        "goals": [
+                            "Lead Programmer of the team, later promoted to Team Leader and Scrum Master.",
+                            "Resolving a project that was stalled for over 6 years; initial demonstrations within 4 months; integrations within 8 months.",
+                            "Integration of new API projects and microservices with the company's core BSS tools.",
+                            "One of two responsible developers for code quality, security, and performance across multiple projects.",
+                            "Mentor to the rest of the team programmers (actively) and to other teams (passively), particularly in Automated Testing (PHPSpec and Behat) and new Symfony components."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "PHPSpec", "Behat", "NodeJS", "Angular", "DDD", "AGILE", "Kanban", "Blackfire",
+                            "SQL", "RabbitMQ", "ElasticSearch", "AWS SQS", "Auth0",
+                            "GitLab", "Jenkins", "Docker", "Linux", "CentOS", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Director of Technology Development",
+                        "company": "Crowd2Fund Limited - London (UK)",
+                        "date": "June 2015 - July 2019",
+                        "goals": [
+                            "Hired as a Software Engineer, promoted to Head of Development, and eventually Director of Technology Development.",
+                            "Lead developer (primary involvement in semi-intelligent features and new APIs).",
+                            "Reduced web server and database load by up to 96% (according to Blackfire).",
+                            "Optimized existing processes to increase performance by up to 60% (according to Blackfire and Zabbix).",
+                            "Architect of the new IT infrastructure, reducing previous costs by 75% (after transitioning to internal DevOps management).",
+                            "Responsible for software and data security, implementing stringent security measures (Zero Trust) and monitoring.",
+                            "Mentor to the rest of the team programmers, particularly in Automated Testing (PHPUnit)."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "PHPSpec", "Behat", "Blackfire", "Zabbix",
+                            "AWS EC2", "AWS RDS", "AWS ElastiCache (Memcached)", "AWS ElastiCache (Redis)",
+                            "GitHub", "Scritinizer CI", "Symfony Insights", "Docker", "MacOS", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Backend Software Engineer",
+                        "company": "Rechannel Limited - London (UK)",
+                        "date": "April 2015 - June 2015",
+                        "goals": [
+                            "Integration of APIs with external ERP and CRM services, expanding the company's business capabilities.",
+                            "Collaboration in the implementation of additional automated tests, enhancing code quality."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "PHPUnit", "PHPSpec", "Behat",
+                            "GitHub", "Scrutinizer CI", "Vagrant", "MacOS", "Linux"
+                        ]
+                    },
+                    {
+                        "position": "Senior Software Engineer",
+                        "company": "Photo Interactive Services - Tarragona (Spain)",
+                        "date": "January 2014 - July 2014",
+                        "goals": [
+                            "Development of new functionalities for the CMS (Content Management System).",
+                            "Implementation of background, asynchronous processes for video and image processing."
+                        ],
+                        "stack": [
+                            "PHP", "Solr", "Linux", "Mint"
+                        ]
+                    },
+                    {
+                        "position": "Software Engineer",
+                        "company": "Inspira Project - Tarragona (Spain)",
+                        "date": "February 2012 - November 2013",
+                        "goals": [
+                            "Migration to new versions of PHP across various company projects.",
+                            "Development of a custom MVC, CMS tool for tailored company developments.",
+                            "Implementation of new Web and DNS server infrastructure (Plesk) and Email (Kerio MailServer).",
+                            "Optimization of projects to align with the Digital Marketing services offered by the company."
+                        ],
+                        "stack": [
+                            "PHP", "Plesk", "Kerio MailServer", "Windows", "Linux", "CentOS"
+                        ]
+                    },
+                    {
+                        "position": "Technology Manager",
+                        "company": "Neumo-Egmo Spain SL - Pol. Ind. Riu Clar (Spain)",
+                        "date": "August 2011 - November 2011",
+                        "goals": [
+                            "Development of the public website integrated with the company's intranet.",
+                            "Programming of the company's intranet, interconnected with the ERP.",
+                            "Optimization of IT infrastructure security processes.",
+                            "Monitoring of security and availability of the company's local network and servers."
+                        ],
+                        "stack": [
+                            "PHP", "MySQL", "SOAP", "Windows", "Linux"
+                        ]
+                    },
+                    {
+                        "position": "Software Engineer & Systems Technician",
+                        "company": "Unión Virtuality Estudios SL - Reus (Spain)",
+                        "date": "August 2011 - November 2011",
+                        "goals": [
+                            "Development of the complaints and suggestions management system (QISS) for the Reus City Hall.",
+                            "Development of the Electronic Notifications System (eNOTUM) for the Reus City Hall.",
+                            "Implementation of network and server monitoring systems (Nagios and Zabbix) for the company and clients.",
+                            "Installation and maintenance of VoIP telephony systems (Asterisk) for the company and clients.",
+                            "Performing preventive and corrective maintenance tasks at client facilities."
+                        ],
+                        "stack": [
+                            "PHP", "Symfony", "MySQL", "Nagios", "Zabbix", "Asterisk", "Windows", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Software Engineer & Systems Technician",
+                        "company": "Monterey Derivados SL (Grup Gamagest) - La Pobla de Mafumet (Spain)",
+                        "date": "August 2011 - November 2011",
+                        "goals": [
+                            "Development of corporate websites for promoting products and services.",
+                            "Implementation of network and server monitoring systems (Nagios and Zabbix).",
+                            "Systems Technician supporting end-users and System Administrators of the company."
+                        ],
+                        "stack": [
+                            "PHP", "MySQL", "Nagios", "Zabbix","Windows", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Software Engineer",
+                        "company": "IGS Software (IGS4 - Grup Gamagest) - La Pobla de Mafumet (Spain)",
+                        "date": "August 2011 - November 2011",
+                        "goals": [
+                            "Development of corporate websites for promoting products and services."
+                        ],
+                        "stack": [
+                            "PHP", "MySQL", "Windows", "Linux", "Ubuntu"
+                        ]
+                    },
+                    {
+                        "position": "Internship Software Engineer",
+                        "company": "Avellana Digital - Reus (Spain)",
+                        "date": "August 2011 - November 2011",
+                        "goals": [
+                            "Initiative in soliciting more complex programming tasks.",
+                            "Development of small utilities used by end customers.",
+                            "Creation of an informative portal about news and activities in the city."
+                        ],
+                        "stack": [
+                            "PHP", "CakePHP", "MySQL", "Windows"
+                        ]
+                    }
+                ]
+            },
+            "volunteering": {
+                "title": "Volunteering",
+                "items": [
+                    {
+                        "position": "Beta Tester & Translator",
+                        "company": "Regular collaborator with various independent game studios.",
+                        "date": "2018 - Currently",
+                        "details": [
+                            "Collaborative translator with a game studio (2024-present).",
+                            "Translator, Beta Tester, and Support with a game studio in the Netherlands (2020-present).",
+                            "Collaborative translator with a game studio in Denmark (2018-2021)."
+                        ]
+                    },
+                    {
+                        "position": "Contributor to open-source libraries and repositories.",
+                        "company": "GitHub",
+                        "date": "2015 - Currently",
+                        "details": [
+                            "One of the main developers in the reimplementing of the Mailgun SDK for PHP.",
+                            "Code contributions to Webmozarts Assert.",
+                            "Issues opened in the Symfony repository, leading to changes and improvements in new versions.",
+                            "Collaborations on repositories such as Symfony, Sonata Project, Liip, Doctrine, Mailgun, Intercom, Composer, Nelmio, ChartJS, etc."
+                        ]
+                    },
+                    {
+                        "position": "Technical Consultant",
+                        "company": "Bismuse SL @ Reus (Spain)",
+                        "date": "February 2019 - July 2021",
+                        "details": [
+                            "Suggest performance improvements (increasing up to 50%) for project codebase (according to Blackfire).",
+                            "Regular code reviews and occasional contributions of new functionalities.",
+                            "Mentor for automated tests based on PHPUnit."
+                        ]
+                    },
+                    {
+                        "position": "Networks Specialist",
+                        "company": "Reus Lan Party 2010 @ Reus (Spain)",
+                        "date": "March 2010",
+                        "details": [
+                            "Implementation of Nagios to monitor the network during the event."
+                        ]
+                    }
+                ]
+            },
+            "education": {
+                "title": "Education & Courses",
+                "items": [
+                    {
+                        "degree": "Training course in TypeScript",
+                        "school": "Online course @ <a href='https://codewithmosh.com/' target='_blank'>CodeWithMosh.com</a>",
+                        "date": "2022",
+                        "details": [
+                            "<i>The Ultimate TypeScript Course</i>"
+                        ]
+                    },
+                    {
+                        "degree": "Training course in NodeJS and ExpressJS",
+                        "school": "Online course @ <a href='https://codewithmosh.com/' target='_blank'>CodeWithMosh.com</a>",
+                        "date": "2022",
+                        "details": [
+                            "<i>The Complete Node.js Course</i>"
+                        ]
+                    },
+                    {
+                        "degree": "Symfony Live & Symfony World conferences",
+                        "school": "Attended both in-person and <a href='https://live.symfony.com/' target='_blank'>online</a> conferences",
+                        "date": "2015 - 2020",
+                        "details": [
+                            "<i>Symfony Live London (2015, 2016, 2017 & 2018)</i>",
+                            "<i>Symfony World Online (2020)</i>"
+                        ]
+                    },
+                    {
+                        "degree": "Certified Technician in Panda Cloud Office Protection",
+                        "school": "Panda Security Certification Program",
+                        "date": "2009",
+                        "details": [
+                            "Certified Technician in Panda Cloud Office Protection"
+                        ]
+                    },
+                    {
+                        "degree": "Senior Technician degree in Systems Administration (Computer Science)",
+                        "school": "<a href='https://www.insbaixcamp.org/' target='_blank'>IES Baix Camp</a> @ Reus (Spain)",
+                        "date": "September 2007 - June 2009",
+                        "details": [
+                            "Senior Technician degree in Systems Administration (Computer Science)",
+                            "Cisco CCNA-2 certification",
+                            "Cisco CCNA-1 certification"
+                        ]
+                    },
+                    {
+                        "degree": "Computer Science degree",
+                        "school": "<a href='https://www.insbaixcamp.org/' target='_blank'>IES Baix Camp</a> @ Reus (Spain)",
+                        "date": "September 2004 - June 2007",
+                        "details": [
+                            "Computer Science degree"
+                        ]
+                    }
+                ]
+            },
+            "skills": {
+                "title": "Skills",
+                "items": [
+                    {
+                        "block": "Operating Systems",
+                        "samples": [
+                            {
+                                "name": "Apple macOS",
+                                "logo": "fa-fw fa-brands fa-apple"
+                            },
+                            {
+                                "name": "GNU/Linux",
+                                "logo": "fa-fw fa-brands fa-linux"
+                            },
+                            {
+                                "name": "Ubuntu (Debian) GNU/Linux",
+                                "logo": "fa-fw fa-brands fa-ubuntu"
+                            },
+                            {
+                                "name": "CentOS (RedHat) GNU/Linux",
+                                "logo": "fa-fw fa-brands fa-centos"
+                            },
+                            {
+                                "name": "Microsoft Windows",
+                                "logo": "fa-fw fa-brands fa-windows"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "Programming Languages & Runtime Engines",
+                        "samples": [
+                            {
+                                "name": "PHP",
+                                "logo": "fa-fw fa-brands fa-php"
+                            },
+                            {
+                                "name": "Symfony",
+                                "logo": "fa-fw fa-brands fa-symfony"
+                            },
+                            {
+                                "name": "JavaScript",
+                                "logo": "fa-fw fa-brands fa-js"
+                            },
+                            {
+                                "name": "NodeJS",
+                                "logo": "fa-fw fa-brands fa-node-js"
+                            },
+                            {
+                                "name": "HTML",
+                                "logo": "fa-fw fa-brands fa-html5"
+                            },
+                            {
+                                "name": "Bootstrap",
+                                "logo": "fa-fw fa-brands fa-bootstrap"
+                            },
+                            {
+                                "name": "CSS",
+                                "logo": "fa-fw fa-brands fa-css3-alt"
+                            },
+                            {
+                                "name": "LESS",
+                                "logo": "fa-fw fa-brands fa-less"
+                            }
+                        ]
+                    },
+                    {
+                        "block": "Software and Service Providers",
+                        "samples": [
+                            {
+                                "name": "Amazon Web Services",
+                                "logo": "fa-fw fa-brands fa-aws"
+                            },
+                            {
+                                "name": "Google Cloud Platform",
+                                "logo": "fa-fw fa-brands fa-google"
+                            },
+                            {
+                                "name": "Docker",
+                                "logo": "fa-fw fa-brands fa-docker"
+                            },
+                            {
+                                "name": "Git",
+                                "logo": "fa-fw fa-brands fa-git"
+                            },
+                            {
+                                "name": "GitHub",
+                                "logo": "fa-fw fa-brands fa-github"
+                            },
+                            {
+                                "name": "GitLab",
+                                "logo": "fa-fw fa-brands fa-gitlab"
+                            },
+                            {
+                                "name": "Bitbucket",
+                                "logo": "fa-fw fa-brands fa-bitbucket"
+                            },
+                            {
+                                "name": "GitKraken",
+                                "logo": "fa-fw fa-brands fa-gitkraken"
+                            },
+                            {
+                                "name": "Jira",
+                                "logo": "fa-fw fa-brands fa-jira"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "ip": {
+            "metadata": {
+                "title": "IP Address · David Garcia",
+                "description": "IP address of the client making the request"
+            },
+            "page": {
+                "title": "IP Address"
             }
         }
+    },
+    "social": {
+        "GitHub": "https://github.com/DavidGarciaCat",
+        "GitLab": "https://gitlab.com/DavidGarciaCat",
+        "LinkedIn": "https://www.linkedin.com/in/davidgarciacat/",
+        "Medium": "https://medium.com/@david-garcia"
     }
 }

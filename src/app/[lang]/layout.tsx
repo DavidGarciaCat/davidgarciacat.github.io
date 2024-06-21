@@ -42,8 +42,8 @@ export default async function Root({
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        {dictionary.i18n.locales.map((locale: string, localeIndes: number) => (
-                            <Link key={localeIndes}
+                        {dictionary.i18n.locales.map((locale: {name: string, iso_639_2: string, flag: string}, localeIndex: number) => (
+                            <Link key={localeIndex}
                                   className={"nav-link js-scroll-trigger"}
                                   style={{display: "inline-block"}}
                                   href={"/" + locale.iso_639_2}>

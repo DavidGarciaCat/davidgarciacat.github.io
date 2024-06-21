@@ -1,6 +1,5 @@
 import { i18n, type Locale } from "@/i18n-config";
 import {getDictionary} from "@/get-dictionary";
-import LocaleSwitcher from "@/components/locale-switcher";
 import Link from "next/link";
 import Script from "next/script";
 import "../globals.css";

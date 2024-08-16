@@ -6,6 +6,7 @@ import "../globals.css";
 import Image from "next/image";
 import profilePicture from "@/../public/images/profile-x400.jpg";
 import LocaleType from "@/types/LocaleType";
+import { Analytics } from "@vercel/analytics/react"
 
 export async function generateStaticParams() {
     return i18n.locales.map((locale) => ({ lang: locale }));
@@ -71,6 +72,8 @@ export default async function Root({
         <Script src={"https://use.fontawesome.com/releases/v6.3.0/js/all.js"}/>
         <Script src={"https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"}/>
         <Script src={"js/scripts.js"}/>
+
+        <Analytics />
 
         </body>
         </html>

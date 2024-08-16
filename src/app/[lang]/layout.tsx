@@ -7,6 +7,7 @@ import Image from "next/image";
 import profilePicture from "@/../public/images/profile-x400.jpg";
 import LocaleType from "@/types/LocaleType";
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export async function generateStaticParams() {
     return i18n.locales.map((locale) => ({ lang: locale }));
@@ -74,6 +75,7 @@ export default async function Root({
         <Script src={"js/scripts.js"}/>
 
         <Analytics />
+        <SpeedInsights />
 
         </body>
         </html>
